@@ -30,7 +30,7 @@ const Login = () => {
    <form 
    onSubmit={(e)=>handleSubmit(e)}
    className='flex flex-col items-center justify-center 
-    border-2 border-black h-[40vh] w-[40vw] shadow-xl rounded-lg'>
+    border-2 border-black h-[40vh] w-[40vw] shadow-xl rounded-lg bg-gray-200'>
         <h1 className='font-black text-2xl'>Login Page</h1>
 
         <input 
